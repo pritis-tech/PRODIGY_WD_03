@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- ── Header ── -->
+    <div class="header">
+      <div class="title">
+        TIC TAC TOE
+        <span>Two Player Game</span>
+      </div>
+
+      <!-- ── Scoreboard ── -->
+      <div class="score-panel">
+        <div class="score-box">
+          <span class="score-label">Player X</span>
+          <span class="score-value" id="scoreX">0</span>
+        </div>
+        <span class="score-divider">:</span>
+        <div class="score-box">
+          <span class="score-label">Player O</span>
+          <span class="score-value" id="scoreO">0</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Turn Indicator ── -->
+    <div class="turn-bar turn-x" id="turnBar">
+      <span class="turn-dot"></span>
+      <span id="turnText">PLAYER X'S TURN</span>
+    </div>
+
+    <!-- ── Game Board ── -->
+    <div class="board" id="board"></div>
+
+    <!-- ── Status Message ── -->
+    <div class="status" id="status"></div>
+
+    <!-- ── Actions ── -->
+    <div class="actions">
+      <button class="btn" onclick="resetAll()">Reset Scores</button>
+      <button class="btn btn-primary" onclick="restartRound()">New Round</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
