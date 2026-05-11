@@ -11,7 +11,8 @@ A modern Tic-Tac-Toe game built using HTML, CSS and JavaScript.
 - Responsive UI
 
 ## Live Demo
-https://your-netlify-link.netlify.app
+https://priti-tictactoe.netlify.app/
+
 
 ## Technologies Used
 - HTML
